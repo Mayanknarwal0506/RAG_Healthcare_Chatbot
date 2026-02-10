@@ -1,0 +1,28 @@
+# ===== Streamlit UI =====
+streamlit==1.29.0
+
+# ===== LlamaIndex =====
+llama-index==0.9.48
+llama-index-embeddings-huggingface==0.6.1
+
+# ===== LangChain =====
+langchain==0.0.350
+langchain-community==0.0.3
+langchain-groq==0.3.1
+
+# ===== HuggingFace & Transformers =====
+sentence-transformers>=2.6.1,<3
+transformers==4.35.0
+
+# ===== FAISS (CPU) =====
+faiss-cpu==1.7.4
+
+# ===== PDF handling =====
+pypdf==3.16.0
+
+# ===== GROQ API =====
+groq==0.1.1
+
+# ===== PyTorch CPU only =====
+# Must be installed first separately using PyTorch's CPU wheel URL
+# Command: pip install --index-url https://download.pytorch.org/whl/cpu torch==2.2.0+cpu
